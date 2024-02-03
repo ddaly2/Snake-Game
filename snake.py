@@ -54,7 +54,3 @@ class Snake:
         new_y = self.segments[len(self.segments) - 1].ycor()
         new_segment.goto(new_x, new_y)
         self.segments.append(new_segment)
-
-
-
-
